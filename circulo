@@ -1,0 +1,16 @@
+package ar.edu.unlam.tallerweb1;
+
+public class circulo {
+	
+	Double radio;
+	
+	public double superfice(){
+		
+		return radio*radio*Math.PI;
+	}
+	
+	public double perimetro(){
+		
+		return 2*radio*Math.PI;
+	}
+}
